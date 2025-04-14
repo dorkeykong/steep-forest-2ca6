@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "steep-forest-2ca6",
+  "compatibility_date": "2025-04-01",
+  "upload_source_maps": true,
+  "main": "./server.ts",
+  "assets": {
+    "directory": "./build/client"
+  },
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "TO_DO_LIST",
+      "id": "feb1063f0c5b4d22a34f0e8e2ab43211"
+    }
+  ]
+}
